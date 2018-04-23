@@ -4,7 +4,6 @@ window.__cfRocketOptions = {byc:0,p:0,petok:"27b0a049c6e59bd6f715519630edcf829bb
 //]]>
 </script>
 <script type="text/javascript" src="https://ajax.cloudflare.com/cdn-cgi/scripts/935cb224/cloudflare-static/rocket.min.js"></script>
-<!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117353348-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -37,7 +36,7 @@ window.__cfRocketOptions = {byc:0,p:0,petok:"27b0a049c6e59bd6f715519630edcf829bb
 <li>Running <a href="https://developer.android.com/studio/run/emulator-commandline.html">Android emulator</a> with Android 4.4 (API level 19)</li>
 </ul>
 <h3><a id="Experimental_Infrastructure_23"></a>Experimental Infrastructure</h3>
-<p>TDroid is available for download from <a href="http://www.cse.unsw.edu.au/~jieliu/artifact.zip">here</a>.<br>
+<p>TDroid is available for download from <a href="https://drive.google.com/open?id=1jVZun46BOhk6Nei_OvvZwyrR38bcAxOw">here</a>.<br>
 Here is the outline of the directory.</p>
 <pre><code class="language-sh">.
 +-- flowdroid                           FlowDroid and Soot.
@@ -52,9 +51,10 @@ Here is the outline of the directory.</p>
             +-- t_analysis_time.txt     A file to save analysis time of TDroid. 
     +-- screenshots                     A folder to save screenshots obtained by TDroid. 
 +-- apps                                A folder containing sample apps.
++-- existingtools                       A folder containing existing testing tools.
 +-- README.html                         A readme file.
 </code></pre>
-<h3><a id="Usage_41"></a>Usage</h3>
+<h3><a id="Usage_41"></a>Usage of TDroid</h3>
 <p>In a terminal, please change your current directory to TDroid_directory and run the Python script to start the analysis.</p>
 <pre><code class="language-sh">$ ./run.py -app $<span class="hljs-variable">APP_PATH</span>$ <span class="hljs-operator">-d</span> $<span class="hljs-variable">DEVICE_PORT</span>$ -b $<span class="hljs-variable">BUILD_TOOLS</span>$
 </code></pre>
@@ -243,6 +243,8 @@ div.desc {
 </div>
 <div class="clearfix"></div>
 
+<h3>Usage of Existing Tools</h3>
+<p>Please see the details in README.html in the archive.</p>
 
 <h2><a id="Notes_94"></a>Notes</h2>
 <ul>
